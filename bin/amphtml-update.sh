@@ -26,8 +26,8 @@ cd $VENDOR_PATH
 if [ ! -e $VENDOR_PATH/amphtml ]; then
 	git clone --depth=1 https://github.com/ampproject/amphtml amphtml
 else
-	cd $VENDOR_PATH/amphtml/validator
-	git fetch --tags
+	cd $VENDOR_PATH/amphtml
+	git pull
 fi
 
 # Check out the latest tag.
