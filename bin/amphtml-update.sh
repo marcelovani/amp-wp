@@ -17,14 +17,14 @@ fi
 sudo apt-get install git python protobuf-compiler python-protobuf
 
 # Create and go to vendor.
-if [[ ! -e $VENDOR_PATH ]]; then
+if [ ! -e $VENDOR_PATH ]; then
 	mkdir $VENDOR_PATH
 fi
 cd $VENDOR_PATH
 
 # Clone amphtml repo.
-if [[ ! -e $VENDOR_PATH/amphtml ]]; then
-	git clone https://github.com/ampproject/amphtml amphtml
+if [ ! -e $VENDOR_PATH/amphtml ]; then
+	git clone --depth=1 https://github.com/ampproject/amphtml amphtml
 else
 	cd $VENDOR_PATH/amphtml/validator
 	git fetch --tags
