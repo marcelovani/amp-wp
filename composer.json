@@ -12,7 +12,8 @@
     ],
     "require": {
         "php": "^5.3.6 || ^7.0",
-        "sabberworm/php-css-parser": "dev-master"
+        "sabberworm/php-css-parser": "dev-master",
+        "xwp/wp-dev-lib": "dev-master"
     },
     "require-dev": {
         "wp-coding-standards/wpcs": "^0.14.0",
