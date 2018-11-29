@@ -34,7 +34,7 @@ module.exports = function( grunt ) {
 				stderr: true
 			},
 			readme: {
-				command: './dev-lib/generate-markdown-readme' // Generate the readme.md.
+				command: './vendor/xwp/wp-dev-lib/generate-markdown-readme' // Generate the readme.md.
 			},
 			phpunit: {
 				command: 'phpunit'

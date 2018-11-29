@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "33d4c9d9bf48285e6557d79a6b4b7601",
+    "content-hash": "712d01725ebb02474abc18782e3de7ac",
     "packages": [
         {
             "name": "sabberworm/php-css-parser",
@@ -50,7 +50,45 @@
             "support": {
                 "source": "https://github.com/xwp/PHP-CSS-Parser/tree/master"
             },
-            "time": "2018-11-25 04:50:29"
+            "time": "2018-11-25T04:50:29+00:00"
+        },
+        {
+            "name": "xwp/wp-dev-lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xwp/wp-dev-lib.git",
+                "reference": "ff2cfd2dfbf42360d70b38089d31eaeefd715146"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xwp/wp-dev-lib/zipball/ff2cfd2dfbf42360d70b38089d31eaeefd715146",
+                "reference": "ff2cfd2dfbf42360d70b38089d31eaeefd715146",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Weston Ruter",
+                    "email": "weston@xwp.co",
+                    "homepage": "https://weston.ruter.net"
+                },
+                {
+                    "name": "XWP",
+                    "email": "engage@xwp.co",
+                    "homepage": "https://xwp.co"
+                }
+            ],
+            "description": "Common code used during development of WordPress plugins and themes",
+            "homepage": "https://github.com/xwp/wp-dev-lib",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2018-11-22T04:47:01+00:00"
         }
     ],
     "packages-dev": [
@@ -270,7 +308,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sabberworm/php-css-parser": 20
+        "sabberworm/php-css-parser": 20,
+        "xwp/wp-dev-lib": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
