@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marcelovani/amp-sanitizer.git",
-                "reference": "16b5d0d8695a708f3f27c0cd1a183bc8721e80ba"
+                "reference": "b933b4ef6e79c3e3ef336f88f4132bd86e1039a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marcelovani/amp-sanitizer/zipball/16b5d0d8695a708f3f27c0cd1a183bc8721e80ba",
-                "reference": "16b5d0d8695a708f3f27c0cd1a183bc8721e80ba",
+                "url": "https://api.github.com/repos/marcelovani/amp-sanitizer/zipball/b933b4ef6e79c3e3ef336f88f4132bd86e1039a3",
+                "reference": "b933b4ef6e79c3e3ef336f88f4132bd86e1039a3",
                 "shasum": ""
             },
             "require": {
@@ -31,8 +31,8 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "": "includes/sanitizers"
+                "files": {
+                    "AMP_Allowed_Tags_Generated": "includes/sanitizers/class-amp-allowed-tags-generated.php"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -41,7 +41,7 @@
             ],
             "description": "Consumes AMPHtml rules and generates AMP sanitizers",
             "homepage": "https://github.com/marcelovani/amp-sanitizer",
-            "time": "2018-11-29T15:33:45+00:00"
+            "time": "2018-11-29T16:31:50+00:00"
         },
         {
             "name": "sabberworm/php-css-parser",
