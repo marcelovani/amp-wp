@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "712d01725ebb02474abc18782e3de7ac",
+    "content-hash": "aa0fbfa002263abe1019d76833748b0f",
     "packages": [
+        {
+            "name": "marcelovani/amp-sanitizer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcelovani/amp-sanitizer.git",
+                "reference": "16b5d0d8695a708f3f27c0cd1a183bc8721e80ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcelovani/amp-sanitizer/zipball/16b5d0d8695a708f3f27c0cd1a183bc8721e80ba",
+                "reference": "16b5d0d8695a708f3f27c0cd1a183bc8721e80ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.6 || ^7.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+                "sabberworm/php-css-parser": "dev-master",
+                "wimg/php-compatibility": "^8.1",
+                "wp-coding-standards/wpcs": "^0.14.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": "includes/sanitizers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Consumes AMPHtml rules and generates AMP sanitizers",
+            "homepage": "https://github.com/marcelovani/amp-sanitizer",
+            "time": "2018-11-29T15:33:45+00:00"
+        },
         {
             "name": "sabberworm/php-css-parser",
             "version": "dev-master",
@@ -309,7 +346,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "sabberworm/php-css-parser": 20,
-        "xwp/wp-dev-lib": 20
+        "xwp/wp-dev-lib": 20,
+        "marcelovani/amp-sanitizer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
