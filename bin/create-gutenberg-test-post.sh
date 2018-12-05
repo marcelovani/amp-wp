@@ -13,7 +13,7 @@ if [[ ! -e $GUTENBERG_PATH ]]; then
 	echo "This needs to clone the Gutenberg plugin into your plugins directory, as it looks like it's not there."
 	read -p "Is that alright? y/n " -r
 	if [[ $REPLY =~ [Yy] ]]; then
-		git clone https://github.com/WordPress/gutenberg.git
+		git clone --depth=1 https://github.com/WordPress/gutenberg.git
 		wp plugin activate gutenberg
 		echo "The Gutenberg plugin is cloned. Please follow the build steps:"
 		echo "https://github.com/WordPress/gutenberg/blob/master/CONTRIBUTING.md"
