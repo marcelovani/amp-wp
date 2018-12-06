@@ -4,6 +4,8 @@
     "homepage": "https://github.com/Automattic/amp-wp",
     "type": "wordpress-plugin",
     "license": "GPL-2.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "repositories": [
         {
             "type": "vcs",
@@ -18,7 +20,8 @@
         "php": "^5.3.6 || ^7.0",
         "sabberworm/php-css-parser": "dev-master as 8.0.0",
         "xwp/wp-dev-lib": "dev-master",
-        "lullabot/amp": "dev-amphtml-generator"
+        "lullabot/amp": "dev-amphtml-generator",
+        "symfony/console": "^3.4"
     },
     "require-dev": {
         "wp-coding-standards/wpcs": "^0.14.0",
