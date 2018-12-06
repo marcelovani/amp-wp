@@ -315,6 +315,21 @@ class AMP_Post_Template {
 	 * Build post content.
 	 */
 	private function build_post_content() {
+    $amp = new \Lullabot\AMP\AMP();
+
+    $content = apply_filters('the_content', $this->post->post_content);
+
+    $options = array(
+      'scope' => 'body',
+      'add_stats_html_comment' => false
+    );
+    $amp->loadHtml($content, $options);
+
+    $this->add_data_by_key('post_amp_content', $amp->convertToAmpHtml());
+    $this->merge_data_for_key('amp_component_scripts', $amp->getComponentJs());
+    $this->add_data_by_key('post_amp_debug', $amp->warningsHumanHtml());
+    return;
+
 		$amp_content = new AMP_Content(
 			$this->post->post_content,
 			amp_get_content_embed_handlers( $this->post ),
