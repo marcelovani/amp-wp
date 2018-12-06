@@ -195,12 +195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dennisinteractive/amp-library.git",
-                "reference": "016288eab7778063a0be9019c8aa696b69119824"
+                "reference": "bff03d195ffbfd57c746243b4ea34685f6c8022f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dennisinteractive/amp-library/zipball/016288eab7778063a0be9019c8aa696b69119824",
-                "reference": "016288eab7778063a0be9019c8aa696b69119824",
+                "url": "https://api.github.com/repos/dennisinteractive/amp-library/zipball/bff03d195ffbfd57c746243b4ea34685f6c8022f",
+                "reference": "bff03d195ffbfd57c746243b4ea34685f6c8022f",
                 "shasum": ""
             },
             "require": {
@@ -220,7 +220,7 @@
             "type": "library",
             "autoload": {
                 "classmap": [
-                    "src/Spec/validator-generated.php"
+                    "src/Spec"
                 ],
                 "psr-4": {
                     "Lullabot\\AMP\\": "src"
@@ -245,7 +245,7 @@
             "support": {
                 "source": "https://github.com/dennisinteractive/amp-library/tree/amphtml-generator"
             },
-            "time": "2018-12-05 23:41:16"
+            "time": "2018-12-06 00:08:47"
         },
         {
             "name": "marc1706/fast-image-size",
