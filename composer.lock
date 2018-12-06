@@ -195,12 +195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dennisinteractive/amp-library.git",
-                "reference": "2d0a28ee418db1c4632d0c1fc867c1a0f4fe97ad"
+                "reference": "14ef6878aef38aa96686ce0f0a50c9bfc8b2b3c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dennisinteractive/amp-library/zipball/2d0a28ee418db1c4632d0c1fc867c1a0f4fe97ad",
-                "reference": "2d0a28ee418db1c4632d0c1fc867c1a0f4fe97ad",
+                "url": "https://api.github.com/repos/dennisinteractive/amp-library/zipball/14ef6878aef38aa96686ce0f0a50c9bfc8b2b3c3",
+                "reference": "14ef6878aef38aa96686ce0f0a50c9bfc8b2b3c3",
                 "shasum": ""
             },
             "require": {
@@ -245,7 +245,7 @@
             "support": {
                 "source": "https://github.com/dennisinteractive/amp-library/tree/amphtml-generator"
             },
-            "time": "2018-12-06 01:13:37"
+            "time": "2018-12-06 16:28:28"
         },
         {
             "name": "marc1706/fast-image-size",
