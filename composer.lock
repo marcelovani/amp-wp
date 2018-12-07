@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "ececfe8594daffc40999ee86769921eb",
@@ -195,12 +195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dennisinteractive/amp-library.git",
-                "reference": "14ef6878aef38aa96686ce0f0a50c9bfc8b2b3c3"
+                "reference": "9d43a701a5ac7773bbc3f74976b0ed176631c7e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dennisinteractive/amp-library/zipball/14ef6878aef38aa96686ce0f0a50c9bfc8b2b3c3",
-                "reference": "14ef6878aef38aa96686ce0f0a50c9bfc8b2b3c3",
+                "url": "https://api.github.com/repos/dennisinteractive/amp-library/zipball/9d43a701a5ac7773bbc3f74976b0ed176631c7e7",
+                "reference": "9d43a701a5ac7773bbc3f74976b0ed176631c7e7",
                 "shasum": ""
             },
             "require": {
@@ -217,6 +217,9 @@
                 "phpunit/phpunit": "4.8.* || ^6",
                 "symfony/console": "^2.7.0"
             },
+            "bin": [
+                "bin/amp-console"
+            ],
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -245,7 +248,7 @@
             "support": {
                 "source": "https://github.com/dennisinteractive/amp-library/tree/amphtml-generator"
             },
-            "time": "2018-12-06 16:28:28"
+            "time": "2018-12-07T08:53:09+00:00"
         },
         {
             "name": "marc1706/fast-image-size",
@@ -589,7 +592,7 @@
             "support": {
                 "source": "https://github.com/xwp/PHP-CSS-Parser/tree/master"
             },
-            "time": "2018-11-25 04:50:29"
+            "time": "2018-11-25T04:50:29+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -863,7 +866,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-12-04 22:42:36"
+            "time": "2018-12-04T22:42:36+00:00"
         }
     ],
     "packages-dev": [
