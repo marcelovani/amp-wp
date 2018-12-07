@@ -8,3 +8,5 @@ amp.zip
 languages/*.pot
 languages/*.php
 built
+composer.lock
+
