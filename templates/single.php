@@ -26,7 +26,12 @@ $this->load_parts( array( 'html-start' ) );
 
 	<div class="amp-wp-article-content">
 		<?php echo $this->get( 'post_amp_content' ); // WPCS: XSS ok. Handled in AMP_Content::transform(). ?>
-	</div>
+    </div>
+    <div class="debug">
+        <pre>
+            <?php echo $this->get( 'post_amp_debug' ); ?>
+        </pre>
+    </div>
 
 	<footer class="amp-wp-article-footer">
 		<?php $this->load_parts( apply_filters( 'amp_post_article_footer_meta', array( 'meta-taxonomy', 'meta-comments-link' ) ) ); ?>
